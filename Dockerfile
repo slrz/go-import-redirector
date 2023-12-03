@@ -1,4 +1,4 @@
-FROM docker.io/golang:1.16 as builder
+FROM docker.io/golang:1.21 as builder
 
 WORKDIR /build
 COPY go.mod go.mod
